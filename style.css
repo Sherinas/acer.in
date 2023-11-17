@@ -1,0 +1,268 @@
+*{margin: 0;}
+
+.menu {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+   }
+   
+   .menu {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    color: white;
+    background:currentColor;
+    box-shadow:
+    0 6px 0,
+    6px 6px 0,
+    12px 6px 0,
+    6px 12px 0,
+    12px 12px 0,
+    6px 0 0,
+    12px 0 0,
+    0 12px 0
+    ;
+    margin-top: 7px;
+    margin-left: 10px;
+   } 
+.navibar{
+    height:33px;
+    width: 100%;
+    background-color: #333333;
+
+}
+.acer{
+    
+    color: white;
+    margin-left: 10px;
+    bottom: 10px;
+    width: 100px;
+    height: auto;
+    font-size: 16px;
+    padding-left: 20px;
+    
+
+}
+.navi_icon{
+   
+    color: white;
+    padding-left: 1000px;
+    padding-top: 5px;
+}
+.user_icon{
+    
+    color: rgb(15, 14, 14);
+    padding-left: 1500px;
+}
+.navi_icon ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    padding-left: 190px;
+}
+.navi_icon ul li{
+    padding-left: 20px;
+}
+
+.header{
+    height:90px;
+    width: 100%;
+    background-color:white;
+}
+.logo{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.opt ul{
+    display: flex;
+   
+    flex-direction: row;
+    justify-content:center;
+    
+
+}
+.opt ul li{
+ padding-left: 70px;
+ padding-right: 20px;
+ list-style: none;
+ font-family: "Noto Sans", sans-serif;
+ font-size: 20px;
+}
+.wall img{
+    width: 100%;
+    height: auto;
+    
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:absolute;
+    
+  }
+  .button{background-color: darkgreen;
+    position: absolute;
+    padding-left: 35px;
+}
+  
+
+ .btn{
+    padding-left: 180px;
+    position: absolute;
+    padding-top: 350px;
+ }
+ .section1{
+    display: flex;
+    justify-content: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size:30px;
+    padding-top:55px;
+ }
+
+ .section-images ul{
+    padding-top: 75px;
+    display: flex;
+    list-style: none;
+    
+ }
+
+ .section-images ul h3{
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    
+
+ }
+
+ .section2 ul{
+    padding-top: 75px;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 18px;
+ }
+ .section2 ul li{
+    padding: 5px;
+
+ }
+ .section2 ul h2{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .section2 ul h3{
+    padding-top: 13px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+ }
+ .section2 ul h4{
+    padding-top: 40px;
+    font-weight: lighter;
+    font-size: 17px;
+    text-decoration: underline;
+    text-decoration-color: darkgreen; 
+    text-decoration-thickness: 3px;
+
+
+ }
+ .button_1 {
+    border: none;
+    color: rgb(19, 16, 16);
+    padding: 10px 500px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 2px;
+    cursor: pointer;
+    position:absolute;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    
+  }
+  .backbt{padding-top: 70px;
+
+  }
+  .footer{
+height: 900px;
+width:100% ;
+background-color: rgb(207, 205, 205);
+
+
+
+  }
+  .lists{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    list-style: none;
+    
+  }
+
+  .lists ul li{
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 10px;
+  }
+  .list ul li h3{
+    font-weight: bold;
+    font-size: 10px;
+    font-family: "Noto Sans", sans-serif;
+  }
+.br{
+    height: 1px;
+    width: 100%;
+    color: #333333;
+}
+.socialmedia ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.socialmedia ul li{
+    padding: 20px;
+}
+.abt-1 ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+
+   
+}
+.abt-1 ul li{
+    padding: 20px;
+}
+.section2 ul{
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+
+}
+
+.section2 ul li img:active {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    cursor: zoom-out;
+  }
